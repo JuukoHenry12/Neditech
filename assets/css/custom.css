@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+
+.home-page2{
+  
+  background: url('../images/showcase.jpg') no-repeat center/cover;
+  color:#f4f4f4
+}
+.home-page2 h1, p{
+   text-align: center;
+
+}
+
+.service h1{
+   text-align: center;
+}
+
+.service{
+  
+  background:#403D3D;
+}
+
+.service h1{
+   color: #f4f4f4;
+}
+
+.friends{
+   text-align: center;
+}
+
+
+.help{
+   color:#143f85
+}
+.touch{
+
+  
+  color: #f4f4f4;
+  text-align: center;
+  background: #000000;
+}
+
+#img{
+   padding: 10px;
+}
+
+.btn-default {
+  font-family: Raleway-SemiBold;
+  background: #1b81d9;
+  font-size: 13px;
+  width: 120px;
+  color:#f4f4f4;
+  letter-spacing: 1px;
+  line-height: 2px;
+  border: 2px solid #f4f4f4;
+  border-radius: 40px;
+  transition: all 0.3s ease 0s;
+}
+
+.card{
+   background: #000000;
+   height: 300px;
+   width: 250px;
+   color:#f4f4f4;
+   border-radius: 10px;
+   transition: 0.3s;
+}
+.card:hover{
+   background: #f4f4f4;
+   color: black;
+   transform: scale(1.1);
+}
+
+.card-title{
+   font-size: 1em;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.con{
+   display: grid;
+   grid-gap: 8px;
+   grid-template-columns: repeat(auto-fill,minmax(250px,2fr));
+   grid-template-rows: 1fr;
+   
+}
+.modal{
+   border-radius: 100px;
+}
+
+
+/* Smoothing scrolling */
+
+.smoothScroll {
+  text-decoration: none;
+	font-family: Segoe UI;
+  margin: 24px;
+}
+
+.content {
+  margin-top: 100%;
+  margin-bottom: 100%;
+}
+small {
+  margin-left: 24px;
+  color: gray;
+}
+.modal-body .form-group input{
+   border-radius: 20px;
+   border:1px solid #000000;
+   font-size: 1em;
+}
+
+.modal-body .form-group select{
+   border-radius: 20px;
+   border:1px solid #000000;
+}
+.vision{
+    margin-top: -120px;
+    box-shadow: 5px;
+    margin-bottom: 150px;
+}
+
+.Mission{
+    margin-top: -120px;
+    box-shadow: 5px;
+}
+body {
+  display: block;
+  margin-top: 0px;
+  
+  
+}
+
+body:focus {
+  outline: none;
+
+}
